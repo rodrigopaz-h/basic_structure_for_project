@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+"keywords": ["backend", "express", "nodejs", "postgresql", "api"],
+  "author": "Rodrigo Paz",
+  "license": "MIT",
+"description": "Este proyecto está diseñado para aprender cómo se organiza una aplicación full-stack utilizando Node.js, Express y PostgreSQL. Incluye una estructura de carpetas y archivos recomendada, así como ejemplos de rutas y configuraciones necesarias. La aplicación cubre la instalación de dependencias esenciales, el uso de middleware como CORS y Morgan, y la integración con una base de datos PostgreSQL. A través de este proyecto, los usuarios aprenderán los pasos necesarios para ejecutar una aplicación completa, desde la configuración inicial hasta la implementación de rutas y servicios.",
+"dependencies": {
+  "cors": "^2.8.5",
+  "dotenv": "^16.4.5",
+  "express": "^4.19.2",
+  "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
